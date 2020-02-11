@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact with HackRx</title>
+    <link rel="stylesheet" href="dist/css/contcss.css" />
+  </head>
+  <body id="bg-img">
+    <div class="page"></div>
+    <h1 class="header">Contact With me!</h1>
+
+    <div class="container">
+      <form action="https://formspree.io/xwkpavjo" method="POST">
+        <div class="margin">
+          <label for="fname">Name</label>
+          <div style="height: 10px;"></div>
+          <input
+            type="text"
+            name="firstname"
+            placeholder="Your name.."
+            required
+          />
+        </div>
+        <div class="margin">
+          <label>Gmail Id</label>
+          <div style="height: 10px;"></div>
+          <input
+            type="email"
+            style="width: 100%;
+            padding: 12px;border-radius: 4px;border: 1px solid #ccc"
+            id=""
+            name="_replyto"
+            placeholder="Gmail Id.."
+            required
+          />
+        </div>
+
+        <div style="height: 10px;"></div>
+        <div class="margin">
+          <label style=" ;" for="subject">Message </label><br />
+          <label style="font-size: 10px;">Feel free to write me!</label>
+
+          <div style="height: 10px;"></div>
+          <textarea
+            id="subject"
+            name="message"
+            placeholder="Write something.."
+            style="height:200px"
+          ></textarea>
+        </div>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
