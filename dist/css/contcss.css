@@ -9,11 +9,11 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
-.menu-btn .btn-line {
+.menu-btn .btn-line1 {
   width: 28px;
   height: 3px;
   margin: 0 0 5px 0;
-  background: #444 !important;
+  background: #444;
   transition: all 0.38s ease-out;
 }
 body#bg-img {
