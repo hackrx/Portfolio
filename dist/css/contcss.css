@@ -3,11 +3,18 @@
 }
 body {
   background: #444;
-  color: black;
+  color: black !important;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+}
+.menu-btn .btn-line {
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: #444 !important;
+  transition: all 0.38s ease-out;
 }
 body#bg-img {
   background: url(../img/background.jpg);
